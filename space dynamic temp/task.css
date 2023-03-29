@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(https://www.free-css.com/assets/files/free-css-templates/preview/page284/space-dynamic/assets/images/about-bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parts{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 250px;
+    align-items: center;
+    padding-bottom: 200px
+    
+}
+#part1{
+    height: 300px;
+    width: 550px;
+
+}
+#part2{
+    height: 300px;
+    width: 900px;
+    
+    margin-bottom: 100px;
+}
+
+.cont1{
+    display: flex;
+    gap: 100px;
+}
+.content1{
+    display: flex;
+    gap: 20px;
+}
+.text1{
+    color: white;
+}
+.content2{
+    display: flex;
+    gap: 20px;
+}
+.text2{
+    color: white;
+}
+
+
+.cont2{
+    display: flex;
+    gap: 100px;
+}
+.content3{
+    display: flex;
+    gap: 20px;
+}
+.text3{
+    color: white;
+}
+.content4{
+    display: flex;
+    gap: 20px;
+}
+.text4{
+    color: white;
+}
