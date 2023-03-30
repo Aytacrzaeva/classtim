@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#part1{
+    width: 25%;
+    height:200px;
+    
+    position: relative;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#part2{
+    width: 25%;
+height:200px;
+
+position: relative;
+border-radius: 3px;
+box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#part3{
+    width: 25%;
+height:200px;
+
+position: relative;
+border-radius: 3px;
+box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.parts{
+    width: 70%;
+    margin: auto;
+    display: flex;
+ justify-content: center;
+    gap: 20px;
+}
+#part1__1{
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    background-color: white;
+    border-radius: 3px;
+    left: 20px;
+    top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-align: center;
+    transition: all 1s ease;
+}
+#part1:hover #part1__1{
+    
+    background-color: red;
+    bottom: 20px;
+    top: 100px;
+}
+#part1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h3 {
+    display: block;
+font-size: 40px;
+    font-weight: bold;
+}
+#part1__2{
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    background-color: white;
+    border-radius: 3px;
+    left: 20px;
+    top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-align: center;
+    transition: all 1s ease;
+    
+}
+#part2:hover #part1__2{
+    
+    background-color: red;
+    bottom: 20px;
+    top: 100px;
+}
+
+#part1__3{
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    background-color: white;
+    border-radius: 3px;
+    left: 20px;
+    top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-align: center;
+    transition: all 1s ease;
+    
+}
+#part3:hover #part1__3{
+    
+    background-color: red;
+    bottom: 20px;
+    top: 100px;
+}
